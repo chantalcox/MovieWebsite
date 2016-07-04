@@ -1,5 +1,5 @@
-#This file contains the CSS and the JS elements that allow to put all those movies instances in a website format 
-#Thanks to this website we can open trailers by clicking on the movie
+#T his file contains the CSS and the JS elements that allow to put all those movies instances in a website format 
+# Thanks to this website we can open trailers by clicking on the movie
 
 import webbrowser
 import os
