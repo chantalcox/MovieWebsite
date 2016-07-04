@@ -1,9 +1,9 @@
-#We have here all the instane variables and the instance method
+#We have here all the instance variables and the instance method
 
 import webbrowser
 
 class Movie():
-	VALID_RATINGS = ["G", "PG", "PG-13", "R"]
+	
 
 	def __init__ (udacity, movie_title, movie_storyline, poster_image, trailer_youtube):
 		udacity.title = movie_title
