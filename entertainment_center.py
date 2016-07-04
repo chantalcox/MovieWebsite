@@ -1,3 +1,6 @@
+#This is the main file to be run
+# It has 6 instances (6 movies)
+
 import media
 import fresh_tomatoes
 
@@ -18,4 +21,5 @@ hercules = media.Movie("Hercules" , "Hercules the master", "https://upload.wikim
 batman = media.Movie("Batman under the Hood", "Batman the superhero", "http://cdn.collider.com/wp-content/uploads/2015/10/batman-under-the-red-hood-poster.jpg","https://www.youtube.com/watch?v=1T__uN5xmC0")
 
 movies = [toy_story, avatar, dory, nemo, hercules, batman]
-fresh_tomatoes.open_movies_page(movies)
+
+print(media.Movie.VALID_RATINGS)
