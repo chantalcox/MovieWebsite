@@ -4,6 +4,9 @@
 import media
 import fresh_tomatoes
 
+#we have below 6 instanes with their corresponding content. 
+#Each instance contains the title, a storyline, the link to to the picture and the link to the trailer
+
 toy_story = media.Movie("Toy story", 
 						"A story of a boy and his toys",
 						"https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg", 
@@ -30,7 +33,7 @@ batman = media.Movie("Batman under the Hood",
 					 "https://www.youtube.com/watch?v=1T__uN5xmC0")
 
 
-
+#We create an array with every instance in it so we can call open_movies_page
 movies = [toy_story, avatar, dory, nemo, hercules, batman]
 
 fresh_tomatoes.open_movies_page(movies)
